@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mead Johnson - Captura</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    
+    <body>
+        <div class="titulo">
+            KEY PERFORMANCE INDICATOR - MEAD JOHNSON
+        </div>
+
+        <form class="formulario">
+                <h1>Ingresa los datos:</h1>
+                <label for="fname">A Tiempo:</label><br>
+                <input type="number" id="dato1" name="fname"><br><br>
+                <label for="lname">Tarde:</label><br>
+                <input type="number" id="dato2" name="lname"><br><br>
+                <button type="button" onclick="ejecutar()">Guardar</button>
+        </form>
+
+        <table class="dataBase" id="myTable">
+            <tr>
+                <td class="tabla_titulos" id="t_dia">Día</td>
+                <td class="tabla_titulos" id="t_tiempo">A Tiempo</td>
+                <td class="tabla_titulos" id="t_tarde">Tarde</td>
+                <td class="tabla_titulos" id="t_total">Total</td>
+                <td class="tabla_titulos" id="t_resultado">Resultado</td>
+                <td class="tabla_titulos" id="t_grafica">Gráfica</td>
+            </tr>
+        </table>
+        <br>
+
+        <script src="app.js"></script>
+    </body>
+</html>
